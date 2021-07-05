@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sanctuary-settings",
+      "handler": "sanctuary-settings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sanctuary-settings",
+      "handler": "sanctuary-settings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sanctuary-settings",
+      "handler": "sanctuary-settings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

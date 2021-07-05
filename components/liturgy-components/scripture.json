@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_liturgy_components_scriptures",
+  "info": {
+    "name": "Scripture",
+    "icon": "book-medical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "bible_ref": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "drop_cap": {
+      "type": "boolean",
+      "default": true
+    },
+    "standing": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}

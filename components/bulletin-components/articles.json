@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_bulletin_components_articles",
+  "info": {
+    "name": "Articles",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article_title": {
+      "type": "string"
+    },
+    "article_content": {
+      "type": "richtext"
+    }
+  }
+}

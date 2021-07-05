@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_bulletin_components_finances_weeklies",
+  "info": {
+    "name": "finances_weekly",
+    "icon": "money-check-alt"
+  },
+  "options": {},
+  "attributes": {
+    "week_of": {
+      "type": "string"
+    },
+    "weekly_donation": {
+      "type": "decimal"
+    }
+  }
+}

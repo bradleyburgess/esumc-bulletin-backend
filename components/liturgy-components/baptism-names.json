@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_liturgy_components_baptism_names",
+  "info": {
+    "name": "baptism_names",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text",
+      "required": true,
+      "default": "XZY, child of John & Melissa Doe"
+    }
+  }
+}

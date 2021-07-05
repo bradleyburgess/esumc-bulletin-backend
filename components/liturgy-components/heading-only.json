@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_liturgy_components_heading_onlies",
+  "info": {
+    "name": "Heading Only",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "standing": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}

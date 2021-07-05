@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_bulletin_components_liturgy_orders",
+  "info": {
+    "name": "Liturgy Order",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "standing": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "stylized": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "greybox": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

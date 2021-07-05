@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_liturgy_components_baptisms",
+  "info": {
+    "name": "Baptism",
+    "icon": "cross",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Sacrament of Holy Baptism",
+      "required": true
+    },
+    "baptism_names": {
+      "type": "component",
+      "repeatable": true,
+      "component": "liturgy-components.baptism-names"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

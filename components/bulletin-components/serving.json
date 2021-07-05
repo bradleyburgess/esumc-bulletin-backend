@@ -1,0 +1,19 @@
+{
+  "collectionName": "serving_in_worship",
+  "info": {
+    "name": "serving in worship",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serving_name": {
+      "type": "string",
+      "required": true
+    },
+    "serving_role": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
