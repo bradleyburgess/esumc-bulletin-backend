@@ -1,3 +1,3 @@
-# Strapi application
+# ESUMC Online Bulletin: Backend
 
-A quick description of your strapi application
+This is the repository for the Strapi backend of the ESUMC Online Worship Bulletin.
