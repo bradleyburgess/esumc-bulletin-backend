@@ -11,5 +11,11 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "days_before_available": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    }
+  }
 }
