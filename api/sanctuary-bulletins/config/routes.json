@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/bulletins",
-      "handler": "bulletin.find",
+      "path": "/sanctuary-bulletins",
+      "handler": "sanctuary-bulletins.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/bulletins/count",
-      "handler": "bulletin.count",
+      "path": "/sanctuary-bulletins/count",
+      "handler": "sanctuary-bulletins.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/bulletins/:id",
-      "handler": "bulletin.findOne",
+      "path": "/sanctuary-bulletins/:id",
+      "handler": "sanctuary-bulletins.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/bulletins",
-      "handler": "bulletin.create",
+      "path": "/sanctuary-bulletins",
+      "handler": "sanctuary-bulletins.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/bulletins/:id",
-      "handler": "bulletin.update",
+      "path": "/sanctuary-bulletins/:id",
+      "handler": "sanctuary-bulletins.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/bulletins/:id",
-      "handler": "bulletin.delete",
+      "path": "/sanctuary-bulletins/:id",
+      "handler": "sanctuary-bulletins.delete",
       "config": {
         "policies": []
       }

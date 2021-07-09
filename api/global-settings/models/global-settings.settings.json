@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "name": "Global Settings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bulletin-components.address",
+      "required": true
+    },
+    "website": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

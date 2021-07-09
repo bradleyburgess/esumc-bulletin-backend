@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sanctuary_bulletins",
+  "info": {
+    "name": "Sanctuary Bulletins",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "A Service of Word & Table"
+    },
+    "uuid": {
+      "type": "uid"
+    },
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "liturgical_calendar": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": false,
+      "default": "Sanctuary"
+    },
+    "copyright": {
+      "type": "text",
+      "required": false,
+      "default": "Copyright © [YEAR]. Edenton Street United Methodist Church. Music printed under OneLicense #A-716913."
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "liturgy_order": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bulletin-components.liturgy-order",
+      "required": true
+    },
+    "serving": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "bulletin-components.serving"
+    },
+    "finances": {
+      "type": "component",
+      "repeatable": false,
+      "component": "bulletin-components.finances"
+    },
+    "altar_flowers": {
+      "type": "text",
+      "required": false
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bulletin-components.articles"
+    }
+  }
+}

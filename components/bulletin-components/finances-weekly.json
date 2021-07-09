@@ -1,16 +1,19 @@
 {
   "collectionName": "components_bulletin_components_finances_weeklies",
   "info": {
-    "name": "finances_weekly",
-    "icon": "money-check-alt"
+    "name": "Finances: Weekly",
+    "icon": "money-check-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "week_of": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "weekly_donation": {
-      "type": "decimal"
+    "amount": {
+      "type": "decimal",
+      "required": true
     }
   }
 }

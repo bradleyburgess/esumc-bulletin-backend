@@ -7,10 +7,10 @@
   },
   "options": {},
   "attributes": {
-    "article_title": {
+    "title": {
       "type": "string"
     },
-    "article_content": {
+    "content": {
       "type": "richtext"
     }
   }

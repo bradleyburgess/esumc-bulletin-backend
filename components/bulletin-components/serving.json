@@ -7,11 +7,11 @@
   },
   "options": {},
   "attributes": {
-    "serving_name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "serving_role": {
+    "role": {
       "type": "string",
       "required": false
     }

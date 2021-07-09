@@ -18,7 +18,8 @@
     "weekly": {
       "type": "component",
       "repeatable": false,
-      "component": "bulletin-components.finances-weekly"
+      "component": "bulletin-components.finances-weekly",
+      "required": true
     }
   }
 }
