@@ -8,11 +8,11 @@
   "options": {},
   "attributes": {
     "ytd_total": {
-      "type": "decimal",
+      "type": "string",
       "required": true
     },
     "yearly_goal": {
-      "type": "decimal",
+      "type": "string",
       "required": true
     },
     "weekly": {
