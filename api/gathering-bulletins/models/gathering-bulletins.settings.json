@@ -41,8 +41,7 @@
     "liturgy_order": {
       "type": "component",
       "repeatable": true,
-      "component": "sanctuary-components.liturgy-order",
-      "required": true
+      "component": "gathering-components.liturgy-order"
     }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_gathering_components_liturgy_orders",
+  "info": {
+    "name": "Liturgy Order",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "greybox": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
