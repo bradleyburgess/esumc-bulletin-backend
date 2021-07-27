@@ -46,19 +46,19 @@
     "liturgy_order": {
       "type": "component",
       "repeatable": true,
-      "component": "bulletin-components.liturgy-order",
+      "component": "sanctuary-components.liturgy-order",
       "required": true
     },
     "serving": {
       "type": "component",
       "repeatable": true,
       "required": true,
-      "component": "bulletin-components.serving"
+      "component": "sanctuary-components.serving"
     },
     "finances": {
       "type": "component",
       "repeatable": false,
-      "component": "bulletin-components.finances"
+      "component": "sanctuary-components.finances"
     },
     "altar_flowers": {
       "type": "text",
@@ -67,7 +67,7 @@
     "articles": {
       "type": "component",
       "repeatable": true,
-      "component": "bulletin-components.articles"
+      "component": "sanctuary-components.articles"
     }
   }
 }

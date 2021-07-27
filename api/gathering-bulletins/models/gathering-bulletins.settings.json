@@ -41,7 +41,7 @@
     "liturgy_order": {
       "type": "component",
       "repeatable": true,
-      "component": "bulletin-components.liturgy-order",
+      "component": "sanctuary-components.liturgy-order",
       "required": true
     }
   }
