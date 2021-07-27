@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gathering_bulletins",
+  "info": {
+    "name": "Gathering Bulletins",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "A Service of Word & Table"
+    },
+    "uuid": {
+      "type": "uid"
+    },
+    "date": {
+      "type": "datetime",
+      "required": true
+    },
+    "liturgical_calendar": {
+      "type": "string",
+      "required": true
+    },
+    "copyright": {
+      "type": "text",
+      "required": false,
+      "default": "Copyright © [YEAR]. Edenton Street United Methodist Church."
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "liturgy_order": {
+      "type": "component",
+      "repeatable": true,
+      "component": "bulletin-components.liturgy-order",
+      "required": true
+    }
+  }
+}

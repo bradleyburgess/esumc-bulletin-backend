@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gathering-bulletins",
+      "handler": "gathering-bulletins.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gathering-bulletins/count",
+      "handler": "gathering-bulletins.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gathering-bulletins/:id",
+      "handler": "gathering-bulletins.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gathering-bulletins",
+      "handler": "gathering-bulletins.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gathering-bulletins/:id",
+      "handler": "gathering-bulletins.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gathering-bulletins/:id",
+      "handler": "gathering-bulletins.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
