@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "gathering_settings",
+  "info": {
+    "name": "Gathering Settings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "days_before_available": {
+      "type": "integer",
+      "required": true,
+      "default": 1
+    }
+  }
+}

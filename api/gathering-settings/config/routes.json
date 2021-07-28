@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gathering-settings",
+      "handler": "gathering-settings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gathering-settings",
+      "handler": "gathering-settings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gathering-settings",
+      "handler": "gathering-settings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
