@@ -14,8 +14,8 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "default": "A Service of Word & Table"
+      "required": false,
+      "default": ""
     },
     "uuid": {
       "type": "uid"
